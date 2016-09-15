@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CA27AF31D8124F900FFD55D /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA27AF21D8124F900FFD55D /* UIImage+animatedGIF.m */; };
+		3CA27AF61D8125AB00FFD55D /* Indian Flag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3CA27AF51D8125AB00FFD55D /* Indian Flag.gif */; };
+		3CA27AF91D81293F00FFD55D /* MainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA27AF81D81293F00FFD55D /* MainScreenViewController.m */; };
+		3CA27AFC1D812E8800FFD55D /* WebPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA27AFB1D812E8800FFD55D /* WebPageViewController.m */; };
 		3CB6D61B1D80D54800280AF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6D61A1D80D54800280AF9 /* main.m */; };
 		3CB6D61E1D80D54800280AF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6D61D1D80D54800280AF9 /* AppDelegate.m */; };
 		3CB6D6211D80D54800280AF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6D6201D80D54800280AF9 /* ViewController.m */; };
@@ -16,6 +20,8 @@
 		3CB6D62C1D80D54800280AF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB6D62A1D80D54800280AF9 /* LaunchScreen.storyboard */; };
 		3CB6D6371D80D54800280AF9 /* Desi_In_USATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6D6361D80D54800280AF9 /* Desi_In_USATests.m */; };
 		3CB6D6421D80D54800280AF9 /* Desi_In_USAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6D6411D80D54800280AF9 /* Desi_In_USAUITests.m */; };
+		3CD1841D1D8740A100D6293D /* live news.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD1841B1D8740A100D6293D /* live news.png */; };
+		3CD1841E1D8740A100D6293D /* live radio.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD1841C1D8740A100D6293D /* live radio.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3CB6D6161D80D54700280AF9 /* Desi In USA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desi In USA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA27AF11D8124F900FFD55D /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		3CA27AF21D8124F900FFD55D /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		3CA27AF51D8125AB00FFD55D /* Indian Flag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Indian Flag.gif"; sourceTree = "<group>"; };
+		3CA27AF71D81293F00FFD55D /* MainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenViewController.h; sourceTree = "<group>"; };
+		3CA27AF81D81293F00FFD55D /* MainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenViewController.m; sourceTree = "<group>"; };
+		3CA27AFA1D812E8800FFD55D /* WebPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebPageViewController.h; sourceTree = "<group>"; };
+		3CA27AFB1D812E8800FFD55D /* WebPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebPageViewController.m; sourceTree = "<group>"; };
+		3CB6D6161D80D54700280AF9 /* 4 U Desi in US.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4 U Desi in US.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB6D61A1D80D54800280AF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CB6D61C1D80D54800280AF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3CB6D61D1D80D54800280AF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,12 +60,14 @@
 		3CB6D6281D80D54800280AF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CB6D62B1D80D54800280AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CB6D62D1D80D54800280AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CB6D6321D80D54800280AF9 /* Desi In USATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desi In USATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB6D6321D80D54800280AF9 /* 4 U Desi in US.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4 U Desi in US.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB6D6361D80D54800280AF9 /* Desi_In_USATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Desi_In_USATests.m; sourceTree = "<group>"; };
 		3CB6D6381D80D54800280AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CB6D63D1D80D54800280AF9 /* Desi In USAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desi In USAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB6D63D1D80D54800280AF9 /* 4 U Desi in US.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4 U Desi in US.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB6D6411D80D54800280AF9 /* Desi_In_USAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Desi_In_USAUITests.m; sourceTree = "<group>"; };
 		3CB6D6431D80D54800280AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CD1841B1D8740A100D6293D /* live news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live news.png"; sourceTree = "<group>"; };
+		3CD1841C1D8740A100D6293D /* live radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live radio.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CA27AF41D81250200FFD55D /* Image GIF Animator */ = {
+			isa = PBXGroup;
+			children = (
+				3CA27AF11D8124F900FFD55D /* UIImage+animatedGIF.h */,
+				3CA27AF21D8124F900FFD55D /* UIImage+animatedGIF.m */,
+			);
+			name = "Image GIF Animator";
+			sourceTree = "<group>";
+		};
 		3CB6D60D1D80D54700280AF9 = {
 			isa = PBXGroup;
 			children = (
@@ -93,9 +117,9 @@
 		3CB6D6171D80D54700280AF9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3CB6D6161D80D54700280AF9 /* Desi In USA.app */,
-				3CB6D6321D80D54800280AF9 /* Desi In USATests.xctest */,
-				3CB6D63D1D80D54800280AF9 /* Desi In USAUITests.xctest */,
+				3CB6D6161D80D54700280AF9 /* 4 U Desi in US.app */,
+				3CB6D6321D80D54800280AF9 /* 4 U Desi in US.xctest */,
+				3CB6D63D1D80D54800280AF9 /* 4 U Desi in US.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,11 +127,19 @@
 		3CB6D6181D80D54700280AF9 /* Desi In USA */ = {
 			isa = PBXGroup;
 			children = (
+				3CA27AF41D81250200FFD55D /* Image GIF Animator */,
 				3CB6D61C1D80D54800280AF9 /* AppDelegate.h */,
 				3CB6D61D1D80D54800280AF9 /* AppDelegate.m */,
 				3CB6D61F1D80D54800280AF9 /* ViewController.h */,
+				3CD1841B1D8740A100D6293D /* live news.png */,
+				3CD1841C1D8740A100D6293D /* live radio.png */,
 				3CB6D6201D80D54800280AF9 /* ViewController.m */,
+				3CA27AF71D81293F00FFD55D /* MainScreenViewController.h */,
+				3CA27AF81D81293F00FFD55D /* MainScreenViewController.m */,
 				3CB6D6221D80D54800280AF9 /* Main.storyboard */,
+				3CA27AFA1D812E8800FFD55D /* WebPageViewController.h */,
+				3CA27AFB1D812E8800FFD55D /* WebPageViewController.m */,
+				3CA27AF51D8125AB00FFD55D /* Indian Flag.gif */,
 				3CB6D6281D80D54800280AF9 /* Assets.xcassets */,
 				3CB6D62A1D80D54800280AF9 /* LaunchScreen.storyboard */,
 				3CB6D62D1D80D54800280AF9 /* Info.plist */,
@@ -146,9 +178,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3CB6D6151D80D54700280AF9 /* Desi In USA */ = {
+		3CB6D6151D80D54700280AF9 /* 4 U Desi in US */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3CB6D6461D80D54800280AF9 /* Build configuration list for PBXNativeTarget "Desi In USA" */;
+			buildConfigurationList = 3CB6D6461D80D54800280AF9 /* Build configuration list for PBXNativeTarget "4 U Desi in US" */;
 			buildPhases = (
 				3CB6D6121D80D54700280AF9 /* Sources */,
 				3CB6D6131D80D54700280AF9 /* Frameworks */,
@@ -158,14 +190,14 @@
 			);
 			dependencies = (
 			);
-			name = "Desi In USA";
+			name = "4 U Desi in US";
 			productName = "Desi In USA";
-			productReference = 3CB6D6161D80D54700280AF9 /* Desi In USA.app */;
+			productReference = 3CB6D6161D80D54700280AF9 /* 4 U Desi in US.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3CB6D6311D80D54800280AF9 /* Desi In USATests */ = {
+		3CB6D6311D80D54800280AF9 /* 4 U Desi in USTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3CB6D6491D80D54800280AF9 /* Build configuration list for PBXNativeTarget "Desi In USATests" */;
+			buildConfigurationList = 3CB6D6491D80D54800280AF9 /* Build configuration list for PBXNativeTarget "4 U Desi in USTests" */;
 			buildPhases = (
 				3CB6D62E1D80D54800280AF9 /* Sources */,
 				3CB6D62F1D80D54800280AF9 /* Frameworks */,
@@ -176,14 +208,14 @@
 			dependencies = (
 				3CB6D6341D80D54800280AF9 /* PBXTargetDependency */,
 			);
-			name = "Desi In USATests";
+			name = "4 U Desi in USTests";
 			productName = "Desi In USATests";
-			productReference = 3CB6D6321D80D54800280AF9 /* Desi In USATests.xctest */;
+			productReference = 3CB6D6321D80D54800280AF9 /* 4 U Desi in US.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3CB6D63C1D80D54800280AF9 /* Desi In USAUITests */ = {
+		3CB6D63C1D80D54800280AF9 /* 4 U Desi in USUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3CB6D64C1D80D54800280AF9 /* Build configuration list for PBXNativeTarget "Desi In USAUITests" */;
+			buildConfigurationList = 3CB6D64C1D80D54800280AF9 /* Build configuration list for PBXNativeTarget "4 U Desi in USUITests" */;
 			buildPhases = (
 				3CB6D6391D80D54800280AF9 /* Sources */,
 				3CB6D63A1D80D54800280AF9 /* Frameworks */,
@@ -194,9 +226,9 @@
 			dependencies = (
 				3CB6D63F1D80D54800280AF9 /* PBXTargetDependency */,
 			);
-			name = "Desi In USAUITests";
+			name = "4 U Desi in USUITests";
 			productName = "Desi In USAUITests";
-			productReference = 3CB6D63D1D80D54800280AF9 /* Desi In USAUITests.xctest */;
+			productReference = 3CB6D63D1D80D54800280AF9 /* 4 U Desi in US.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,6 +242,7 @@
 				TargetAttributes = {
 					3CB6D6151D80D54700280AF9 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HBF3V7534S;
 					};
 					3CB6D6311D80D54800280AF9 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -221,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3CB6D6111D80D54700280AF9 /* Build configuration list for PBXProject "Desi In USA" */;
+			buildConfigurationList = 3CB6D6111D80D54700280AF9 /* Build configuration list for PBXProject "4 U Desi in US" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,9 +267,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3CB6D6151D80D54700280AF9 /* Desi In USA */,
-				3CB6D6311D80D54800280AF9 /* Desi In USATests */,
-				3CB6D63C1D80D54800280AF9 /* Desi In USAUITests */,
+				3CB6D6151D80D54700280AF9 /* 4 U Desi in US */,
+				3CB6D6311D80D54800280AF9 /* 4 U Desi in USTests */,
+				3CB6D63C1D80D54800280AF9 /* 4 U Desi in USUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,8 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CB6D62C1D80D54800280AF9 /* LaunchScreen.storyboard in Resources */,
+				3CD1841D1D8740A100D6293D /* live news.png in Resources */,
+				3CD1841E1D8740A100D6293D /* live radio.png in Resources */,
 				3CB6D6291D80D54800280AF9 /* Assets.xcassets in Resources */,
 				3CB6D6241D80D54800280AF9 /* Main.storyboard in Resources */,
+				3CA27AF61D8125AB00FFD55D /* Indian Flag.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +312,9 @@
 				3CB6D6211D80D54800280AF9 /* ViewController.m in Sources */,
 				3CB6D61E1D80D54800280AF9 /* AppDelegate.m in Sources */,
 				3CB6D61B1D80D54800280AF9 /* main.m in Sources */,
+				3CA27AFC1D812E8800FFD55D /* WebPageViewController.m in Sources */,
+				3CA27AF91D81293F00FFD55D /* MainScreenViewController.m in Sources */,
+				3CA27AF31D8124F900FFD55D /* UIImage+animatedGIF.m in Sources */,
 				3CB6D6271D80D54800280AF9 /* Desi_In_USA.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,12 +340,12 @@
 /* Begin PBXTargetDependency section */
 		3CB6D6341D80D54800280AF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3CB6D6151D80D54700280AF9 /* Desi In USA */;
+			target = 3CB6D6151D80D54700280AF9 /* 4 U Desi in US */;
 			targetProxy = 3CB6D6331D80D54800280AF9 /* PBXContainerItemProxy */;
 		};
 		3CB6D63F1D80D54800280AF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3CB6D6151D80D54700280AF9 /* Desi In USA */;
+			target = 3CB6D6151D80D54700280AF9 /* 4 U Desi in US */;
 			targetProxy = 3CB6D63E1D80D54800280AF9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -419,10 +458,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Desi In USA/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Developer.Desi-In-USA";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Developer.Desi-USA";
+				PRODUCT_NAME = "4 U Desi in US";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -430,10 +472,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Desi In USA/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Developer.Desi-In-USA";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Developer.Desi-USA";
+				PRODUCT_NAME = "4 U Desi in US";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -444,8 +489,8 @@
 				INFOPLIST_FILE = "Desi In USATests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Developer.Desi-In-USATests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desi In USA.app/Desi In USA";
+				PRODUCT_NAME = "4 U Desi in US";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4 U Desi in US.app/4 U Desi in US";
 			};
 			name = Debug;
 		};
@@ -456,8 +501,8 @@
 				INFOPLIST_FILE = "Desi In USATests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Developer.Desi-In-USATests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desi In USA.app/Desi In USA";
+				PRODUCT_NAME = "4 U Desi in US";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4 U Desi in US.app/4 U Desi in US";
 			};
 			name = Release;
 		};
@@ -467,7 +512,7 @@
 				INFOPLIST_FILE = "Desi In USAUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Developer.Desi-In-USAUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "4 U Desi in US";
 				TEST_TARGET_NAME = "Desi In USA";
 			};
 			name = Debug;
@@ -478,7 +523,7 @@
 				INFOPLIST_FILE = "Desi In USAUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Developer.Desi-In-USAUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "4 U Desi in US";
 				TEST_TARGET_NAME = "Desi In USA";
 			};
 			name = Release;
@@ -486,7 +531,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3CB6D6111D80D54700280AF9 /* Build configuration list for PBXProject "Desi In USA" */ = {
+		3CB6D6111D80D54700280AF9 /* Build configuration list for PBXProject "4 U Desi in US" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3CB6D6441D80D54800280AF9 /* Debug */,
@@ -495,29 +540,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3CB6D6461D80D54800280AF9 /* Build configuration list for PBXNativeTarget "Desi In USA" */ = {
+		3CB6D6461D80D54800280AF9 /* Build configuration list for PBXNativeTarget "4 U Desi in US" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3CB6D6471D80D54800280AF9 /* Debug */,
 				3CB6D6481D80D54800280AF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3CB6D6491D80D54800280AF9 /* Build configuration list for PBXNativeTarget "Desi In USATests" */ = {
+		3CB6D6491D80D54800280AF9 /* Build configuration list for PBXNativeTarget "4 U Desi in USTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3CB6D64A1D80D54800280AF9 /* Debug */,
 				3CB6D64B1D80D54800280AF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3CB6D64C1D80D54800280AF9 /* Build configuration list for PBXNativeTarget "Desi In USAUITests" */ = {
+		3CB6D64C1D80D54800280AF9 /* Build configuration list for PBXNativeTarget "4 U Desi in USUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3CB6D64D1D80D54800280AF9 /* Debug */,
 				3CB6D64E1D80D54800280AF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
