@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C941CCB1D98D2520023BB3F /* beach background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C941CCA1D98D2520023BB3F /* beach background.jpg */; };
 		3CA27AF31D8124F900FFD55D /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA27AF21D8124F900FFD55D /* UIImage+animatedGIF.m */; };
 		3CA27AF61D8125AB00FFD55D /* Indian Flag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3CA27AF51D8125AB00FFD55D /* Indian Flag.gif */; };
 		3CA27AF91D81293F00FFD55D /* MainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA27AF81D81293F00FFD55D /* MainScreenViewController.m */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C941CCA1D98D2520023BB3F /* beach background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "beach background.jpg"; sourceTree = "<group>"; };
 		3CA27AF11D8124F900FFD55D /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
 		3CA27AF21D8124F900FFD55D /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 		3CA27AF51D8125AB00FFD55D /* Indian Flag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Indian Flag.gif"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				3CB6D6201D80D54800280AF9 /* ViewController.m */,
 				3CA27AF71D81293F00FFD55D /* MainScreenViewController.h */,
 				3CA27AF81D81293F00FFD55D /* MainScreenViewController.m */,
+				3C941CCA1D98D2520023BB3F /* beach background.jpg */,
 				3CB6D6221D80D54800280AF9 /* Main.storyboard */,
 				3CA27AFA1D812E8800FFD55D /* WebPageViewController.h */,
 				3CA27AFB1D812E8800FFD55D /* WebPageViewController.m */,
@@ -283,6 +286,7 @@
 				3CD1841D1D8740A100D6293D /* live news.png in Resources */,
 				3CD1841E1D8740A100D6293D /* live radio.png in Resources */,
 				3CB6D6291D80D54800280AF9 /* Assets.xcassets in Resources */,
+				3C941CCB1D98D2520023BB3F /* beach background.jpg in Resources */,
 				3CB6D6241D80D54800280AF9 /* Main.storyboard in Resources */,
 				3CA27AF61D8125AB00FFD55D /* Indian Flag.gif in Resources */,
 			);
