@@ -368,14 +368,6 @@
             </objects>
             <point key="canvasLocation" x="3023" y="481"/>
         </scene>
-        <!--AV Player View Controller-->
-        <scene sceneID="GGk-Wc-qWA">
-            <objects>
-                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="04t-ex-3WM" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OGF-WZ-skN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4003.41796875" y="477.32187499999998"/>
-        </scene>
     </scenes>
     <resources>
         <image name="Bengali Edited Corner" width="300" height="300"/>
